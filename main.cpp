@@ -25,7 +25,7 @@ int main() {
 	system("title All function types in one program by P. Ban");
 	bannerTitle();
 
-	int userInput;  //  rethink the type
+	int userInput; 
 
 	while (true) {
 	bannerRepeat();
@@ -79,7 +79,7 @@ double getPos() {
 int PADcalculation(int userInput) {
 	int sum = 0;
 
-	for (int i = 1; i < userInput - 1; i++) {   // you can improve the condition
+	for (int i = 1; i < userInput - 1; i++) {  
 		if (userInput % i == 0)
 			sum += i;
 	}
